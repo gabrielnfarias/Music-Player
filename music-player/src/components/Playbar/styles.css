@@ -1,0 +1,70 @@
+.container-PlayBar {
+  background-color: rgba(0, 0, 0, 0.253);
+  display: flex;
+  margin-top: 110px;
+}
+.container-controles {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+.name-music-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 26px 18px;
+}
+.music-name {
+  font-size: 24px;
+  color: white;
+}
+.music-artist {
+  font-size: 16px;
+  color: white;
+}
+.commads {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-controles {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  width: 70%;
+}
+.controls {
+  align-items: center;
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 328px;
+}
+.progress-bar-container {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  height: 28px;
+  justify-content: space-between;
+  width: 642px;
+}
+.timming {
+  color: white;
+  font-size: 16px;
+  margin-left: 40px;
+}
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 4px;
+  height: 8px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #e40d7a;
+  border-radius: 4px;
+  height: 100%;
+  transition: width 0.1s;
+}

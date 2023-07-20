@@ -1,0 +1,62 @@
+html {
+  background: linear-gradient(180deg, #0c0505 0%, #3a3535 47.92%, #5e5858 100%);
+  color: #fff;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.container-header {
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.bem-vindo {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+}
+
+.bem-vindo h1 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.text-playlist {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.music-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.music-card {
+  flex: 0 0 260px;
+  margin: 10px;
+}
+.music-img {
+  height: 260px;
+  width: 260px;
+}

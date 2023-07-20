@@ -1,0 +1,14 @@
+.music-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.music-card {
+  flex: 0 0 260px;
+  margin: 10px;
+}
+.music-img {
+  height: 260px;
+  width: 260px;
+}

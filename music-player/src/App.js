@@ -16,19 +16,20 @@ function App() {
   };
 
   const setNext = () => {
-    const currentIndex = musics.findIndex(
+    const currentIndex = musicData.findIndex(
       (music) => music.id === currentMusic.id
     );
-    const nextIndex = (currentIndex + 1) % musics.length;
-    setCurrentMusic(musics[nextIndex]);
+    const nextIndex = (currentIndex + 1) % musicData.length;
+    setCurrentMusic(musicData[nextIndex]);
   };
 
   const setPrevious = () => {
-    const currentIndex = musics.findIndex(
+    const currentIndex = musicData.findIndex(
       (music) => music.id === currentMusic.id
     );
-    const previousIndex = (currentIndex - 1 + musics.length) % musics.length;
-    setCurrentMusic(musics[previousIndex]);
+    const previousIndex =
+      (currentIndex - 1 + musicData.length) % musicData.length;
+    setCurrentMusic(musicData[previousIndex]);
   };
   return (
     <div className="container">
@@ -44,7 +45,7 @@ function App() {
       <main>
         <h1 className="text-playlist">The best playlist</h1>
         <div className="music-cards">
-          {musics.map((music) => (
+          {musicData.map((music) => (
             <MusicCard
               key={music.id}
               music={music}
